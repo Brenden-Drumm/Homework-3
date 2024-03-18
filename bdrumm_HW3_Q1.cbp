@@ -34,9 +34,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Babysitter.h" />
+		<Unit filename="include/Nanny.h" />
 		<Unit filename="include/Person.h" />
+		<Unit filename="include/Student.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Babysitter.cpp" />
+		<Unit filename="src/Nanny.cpp" />
 		<Unit filename="src/Person.cpp" />
+		<Unit filename="src/Student.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
