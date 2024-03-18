@@ -1,5 +1,20 @@
+/*************************************************************************
+** Author : Brenden Drumm
+** Program : hw3, q1
+** Date Created : March 17, 2024
+** Date Last Modified : March 17, 2024
+**
+** Problem:
+Create a Person class with a 2 children and a grandchild class
+- each should inherit all of the data from their ancestor
+- Each should introduce at least 1 private data member with a setter and getter
+*************************************************************************/
+
 #include <iostream>
 #include "Person.h"
+#include "Student.h"
+#include "Babysitter.h"
+#include "Nanny.h"
 
 using namespace std;
 

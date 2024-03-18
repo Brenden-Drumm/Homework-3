@@ -3,8 +3,8 @@
 //using namespace std;
 
 Babysitter::Babysitter():Person(){}
-Babysitter::Babysitter(string firstS, string lastS, int dayS, int monthS, int yearS, float money, int clients):Person(firstS, lastS, dayS, monthS, yearS){
-    clients = people;
+Babysitter::Babysitter(std::string first, std::string last, int day, int month, int year, float money):Person(first, last, day, month, year){
+    pay = money;
 }
 
 void setPay(float money)
